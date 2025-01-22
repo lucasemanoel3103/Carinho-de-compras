@@ -14,7 +14,7 @@ await cartService.addItem(myCart, item2);
 
 await cartService.deleteItem(myCart, item2.name);
 
-console.log("Shopee cart Total is:"); 
+
 await cartService.calculateTotal(myCart);
 
 
